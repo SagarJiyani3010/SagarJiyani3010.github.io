@@ -1,8 +1,25 @@
-/*!
-  * Item: CodeX
-  * Description:  Personal Portfolio / Resume / CV / vCard Template
-  * Author/Developer: Exill
-  * Author/Developer URL: https://themeforest.net/user/exill
-  * Version: v1.0.0
-  * License: Themeforest Standard Licenses: https://themeforest.net/licenses
-  */
+body {
+    background-color: rgb(24, 26, 27);
+    color: rgb(200, 195, 188);
+}
+.single-section {
+    background-color: rgb(24, 26, 27);
+}
+
+.single-section .section-heading>.section-title {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -.25px;
+    line-height: 100%;
+    margin-bottom: 12px;
+    position: relative;
+    z-index: 9;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: rgb(211, 207, 201);
+}
+.single-section .section-heading {
+    margin-bottom: 48px;
+    text-align: left;
+}
